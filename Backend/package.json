@@ -6,8 +6,7 @@
   "scripts": {
     "test": "jest",
     "start": "node src/server.js",
-    "seed": "node scripts/createDoctorsAndAdmins.js",
-    "postinstall": "npm install --legacy-peer-deps"
+    "seed": "node scripts/createDoctorsAndAdmins.js"
   },
   "engines": {
     "node": "16.x",
